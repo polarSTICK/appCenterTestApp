@@ -9,5 +9,11 @@
            Text="Welcome to this beautiful application!" 
            VerticalOptions="Center" 
            HorizontalOptions="CenterAndExpand" />
+
+        <Button x:Name="btnChange"
+            Text="Dont Click me!"
+           VerticalOptions="Center" 
+           HorizontalOptions="CenterAndExpand"
+           Clicked="Button_Clicked"/>
     </StackLayout>
 </ContentPage>
